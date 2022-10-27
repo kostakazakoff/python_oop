@@ -71,12 +71,12 @@ The Trainer class should receive a name (string). The Trainer should also have a
 trainer_data()
     - The method returns the information about the trainer and his pokemon's collection in the format:
 
-"Pokemon Trainer {trainer_name}
+        "Pokemon Trainer {trainer_name}
 
-Pokemon count {the amount of pokemon caught}
+        Pokemon count {the amount of pokemon caught}
 
-{pokemon_details1}
+        {pokemon_details1}
 
-...
+        ...
 
-{pokemon_detailsN}"
+        {pokemon_detailsN}"
