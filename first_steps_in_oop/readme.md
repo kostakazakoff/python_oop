@@ -28,3 +28,16 @@ Create a class called Flower. Upon initialization, the class should receive a na
 Add two additional methods to the class:
 - water(quantity) - it will water the flower. Each time check if the quantity is greater than or equal to the required. If it is - the flower becomes happy (set is_happy to True).
 - status() - it should return "{name} is happy" if the flower is happy, otherwise it should return "{name} is not happy".
+
+
+# Steam User
+Create a class called SteamUser. Upon initialization, it should receive a username (string) and games (list). It should also have an attribute called played_hours (0 by default). Add three methods to the class:
+- play(game, hours)
+    - f the game is in the game list, increase the played_hours by the given hours and return "{username} is playing {game}"
+    - Otherwise, return "{game} is not in library"
+- buy_game(game)
+    - If the game is not in the game list, add it and return "{username} bought {game}"
+    - Otherwise, return "{game} is already in your library"
+- status() - returns the following:
+
+    "{username} has {games_count} games. Total play time: {played_hours}"
