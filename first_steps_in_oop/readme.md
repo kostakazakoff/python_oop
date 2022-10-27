@@ -73,10 +73,10 @@ trainer_data()
 
 "Pokemon Trainer {trainer_name}
 
- Pokemon count {the amount of pokemon caught}
+Pokemon count {the amount of pokemon caught}
 
- - {pokemon_details1}
+{pokemon_details1}
 
- ...
- 
- - {pokemon_detailsN}"
+...
+
+{pokemon_detailsN}"
