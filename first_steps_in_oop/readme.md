@@ -41,3 +41,14 @@ Create a class called SteamUser. Upon initialization, it should receive a userna
 - status() - returns the following:
 
     "{username} has {games_count} games. Total play time: {played_hours}"
+
+
+# Programmer
+Create a class called Programmer. Upon initialization, it should receive name (string), language (string), skills (integer). The class should have two methods:
+- watch_course(course_name, language, skills_earned)
+    - If the programmer's language is the same as the one on the course, increase his skills with the given amount and return a message "{name} watched {course_name}".
+    - Otherwise return "{name} does not know {language}".
+- change_language(new_language, skills_needed) 
+    - If the programmer has the skills and the new language is not the same as his, change his language to the new one and return "{name} switched from {previous_language} to {new_language}".
+    - If the programmer has the skills, but the given language is equal to his return "{name} already knows {language}".
+    - In the last case, the programmer does not have enough skills, so return "{name} needs {needed_skills} more skills" and do not change his language.
