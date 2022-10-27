@@ -22,15 +22,3 @@ class Trainer:
     def trainer_data(self):
         pokemons_details = '\n'.join([f'- {x.pokemon_details()}' for x in self.pokemons])
         return f'Pokemon Trainer {self.name}\nPokemon count {len(self.pokemons)}\n{pokemons_details}'
-
-
-pokemon = Pokemon("Pikachu", 90)
-print(pokemon.pokemon_details())
-trainer = Trainer("Ash")
-print(trainer.add_pokemon(pokemon))
-second_pokemon = Pokemon("Charizard", 110)
-print(trainer.add_pokemon(second_pokemon))
-print(trainer.add_pokemon(second_pokemon))
-print(trainer.release_pokemon("Pikachu"))
-print(trainer.release_pokemon("Pikachu"))
-print(trainer.trainer_data())
