@@ -116,3 +116,5 @@ It should also have 2 other instance attributes: apps (empty list by default) an
     - If there is enough memory, but the phone is off, returns "Turn on your phone to install {app}"
     - Otherwise, returns "Not enough memory to install {app}"
 - status() - returns "Total apps: {total_apps_count}. Memory left: {memory_left}"
+
+
