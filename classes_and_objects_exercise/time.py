@@ -14,12 +14,15 @@ class Time:
 
     def next_second(self):
         self.seconds += 1
+        
         if self.seconds > Time.max_seconds:
             self.seconds = 0
             self.minutes += 1
+            
             if self.minutes > Time.max_minutes:
                 self.minutes = 0
                 self.hours += 1
+
                 if self.hours > Time.max_hours:
                     self.hours = 0
 
