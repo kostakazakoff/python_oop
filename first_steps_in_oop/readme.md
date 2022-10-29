@@ -98,3 +98,10 @@ Create a class called Circle. Upon initialization, it should receive a radius (n
 - set_radius(new_radius) - changes the radius
 - get_area() - returns the area of the circle
 - get_circumference() - returns the circumference of the circle
+
+
+# Glass
+Create a class called Glass. Upon initialization, it will not receive any parameters. You must create an instance attribute called content which should be equal to 0. You should also create a class attribute called capacity which should be 250 ml. Create 3 instance methods:
+- fill(ml) - fills the glass with the given milliliters if there is enough space in it and returns "Glass filled with {ml} ml", otherwise returns "Cannot add {ml} ml"
+- empty() - empties the glass and returns "Glass is now empty" 
+- info() - returns info about the glass in the format "{space_left} ml left"
