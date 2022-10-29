@@ -105,3 +105,14 @@ Create a class called Glass. Upon initialization, it will not receive any parame
 - fill(ml) - fills the glass with the given milliliters if there is enough space in it and returns "Glass filled with {ml} ml", otherwise returns "Cannot add {ml} ml"
 - empty() - empties the glass and returns "Glass is now empty" 
 - info() - returns info about the glass in the format "{space_left} ml left"
+
+
+# Smartphone
+Create a class called Smartphone. Upon initialization, it should receive a memory (number).
+It should also have 2 other instance attributes: apps (empty list by default) and is_on (False by default). Create 3 methods:
+- power() - sets is_on on True if the phone is off, otherwise sets it to False
+- install(app, app_memory)
+    - If there is enough memory on the phone and it is on, installs the app (add it to apps and decrease the memory of the phone) and returns "Installing {app}"
+    - If there is enough memory, but the phone is off, returns "Turn on your phone to install {app}"
+    - Otherwise, returns "Not enough memory to install {app}"
+- status() - returns "Total apps: {total_apps_count}. Memory left: {memory_left}"
