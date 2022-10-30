@@ -21,7 +21,7 @@ class Task:
         self.comments.append(comment)
 
     def edit_comment(self, comment_number: int, new_comment: str):
-        if not 0<=comment_number<len(self.comments):
+        if not 0 <=comment_number <len(self.comments):
             return "Cannot find comment."
         self.comments[comment_number] = new_comment
         return ', '.join(self.comments)

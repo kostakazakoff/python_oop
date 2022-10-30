@@ -13,16 +13,18 @@ class Section:
         return f"Task {new_task.details()} is added to the section"
 
     def complete_task(self, task_name: str):
-        if task_name not in self.tasks:
+        try:
+            task = next(filter(lambda t: t.name == task_name, self.tasks))
+        except StopIteration:
             return f"Could not find task with the name {task_name}"
-        task_name.completed = True
+        task.completed = True
         return f"Completed task {task_name}"
 
     def clean_section(self):
         old_amount = len(self.tasks)
-        self.tasks = [task for task in self.tasks if task.completed == False]
+        self.tasks = [task for task in self.tasks if not task.completed]
         return f"Cleared {old_amount - len(self.tasks)} tasks."
 
     def view_section(self):
-        details = '\n'.join(x.details() for x in self.tasks)
-        return f"Section {self.name}:\n{details}"
+        task_details = '\n'.join(task.details() for task in self.tasks)
+        return f"Section {self.name}:\n{task_details}"
