@@ -48,7 +48,7 @@ Create a class called PizzaDelivery. Upon initialization, it should receive a na
     - Keep in mind that once the pizza is ordered, no further changes are allowed. We should return the following message if the customer tries to change it: "Pizza {name} already prepared, and we can't make any changes!"
 
 
-#. To-do List
+# To-do List
 In this exercise, we are going to create a whole project step-by-step, starting with the project structure:
 
 
