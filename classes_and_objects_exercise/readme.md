@@ -46,3 +46,46 @@ Create a class called PizzaDelivery. Upon initialization, it should receive a na
 - make_order()
     - Set the attribute ordered to True and return the following message "You've ordered pizza {pizza_name} prepared with {ingredient: quantity} and the price will be {price}lv.". The ingredients should be separated by a comma and a space ", "
     - Keep in mind that once the pizza is ordered, no further changes are allowed. We should return the following message if the customer tries to change it: "Pizza {name} already prepared, and we can't make any changes!"
+
+
+#. To-do List
+In this exercise, we are going to create a whole project step-by-step, starting with the project structure:
+
+
+
+Create separate files for each class, as shown above. You are tasked to create two classes: a Task class and a Section class.
+The Task class should receive a name (string) and a due_date (str) upon initialization. A task also has two attributes: comments (empty list) and completed set to False by default.
+The Task class should also have five additional methods:
+- change_name(new_name: str)
+    - Changes the name of the task and returns the new name.
+    - If the new name is the same as the current name, returns "Name cannot be the same."
+- change_due_date(new_date: str) 
+    - Changes the due date of the task and returns the new date.
+    - If the new date is the same as the current date, returns "Date cannot be the same."
+- add_comment(comment: str)
+    - Adds a comment to the task.
+- edit_comment(comment_number: int, new_comment: str)
+    - The comment number value represents the index of the comment we want to edit. The method should change the comment and return all the comments, separated by comma and space (", ")
+    - If the comment number is out of range, returns "Cannot find comment."
+-  details()
+    - Returns the task's details in this format:
+    "Name: {task_name} - Due Date: {due_date}"
+The Section class should receive a name (string) upon initialization. The task also has one instance attribute:
+tasks (empty list)
+
+The Section class should also have four methods:
+- add_task(new_task: Task)
+    - Adds a new task to the collection and returns "Task {task details} is added to the section"
+    - If the task is already in the collection, returns "Task is already in the section {section_name}"
+- complete_task(task_name: str) 
+    - Changes the task to completed (True) and returns "Completed task {task_name}"
+    - If the task is not found, returns "Could not find task with the name {task_name}"
+- clean_section()
+    - Removes all the completed tasks and returns "Cleared {amount of removed tasks} tasks."
+- view_section()
+    - Returns information about the section and its tasks in this format:
+        "Section {section_name}:
+        {details of the first task}
+        {details of the second task}
+        …
+        {details of the n task}"
