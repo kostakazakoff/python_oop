@@ -51,7 +51,7 @@ Create a class called PizzaDelivery. Upon initialization, it should receive a na
 # To-do List
 In this exercise, we are going to create a whole project step-by-step, starting with the project structure:
 
-
+![image](https://user-images.githubusercontent.com/104040753/198872501-186feec4-b7a3-4598-8546-d871852455b6.png)
 
 Create separate files for each class, as shown above. You are tasked to create two classes: a Task class and a Section class.
 The Task class should receive a name (string) and a due_date (str) upon initialization. A task also has two attributes: comments (empty list) and completed set to False by default.
@@ -84,8 +84,14 @@ The Section class should also have four methods:
     - Removes all the completed tasks and returns "Cleared {amount of removed tasks} tasks."
 - view_section()
     - Returns information about the section and its tasks in this format:
+    
         "Section {section_name}:
+        
         {details of the first task}
+        
         {details of the second task}
+        
         …
+        
         {details of the n task}"
+        
