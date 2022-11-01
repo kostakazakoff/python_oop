@@ -212,8 +212,7 @@ The class has three methods:
 # Library*
 Create a class called Library, where the information regarding the users and books rented/available will be stored. Create another one called User, where the information for each of the library users will be stored, and Registration class, where user information will be administrated (created/edited/deleted) and stored in the Library records.
 
-
-
+![image](https://user-images.githubusercontent.com/104040753/199205979-2cbe34ef-03ea-44c9-b0c3-a8f6f7c5abf1.png)
 
 ### Class User
 In the user.py file, create class User. Upon initialization, it should receive user_id (int) and username (string). The class should also have an instance attribute books that is an empty list. You should also create 2 instance methods:
