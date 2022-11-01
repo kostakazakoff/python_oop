@@ -96,10 +96,10 @@ The Section class should also have four methods:
         {details of the n task}"
         
 
-#. Guild System
+# Guild System
 You are tasked to create two classes: a Player class and a Guild class. 
 
-
+![image](https://user-images.githubusercontent.com/104040753/199203776-94299eda-7276-4900-ad26-3ce0b082d7d4.png)
 
 The Player class should receive a name (string), a hp (int), and a mp (int) upon initialization. The Player also has 2 instance attributes: skills (empty dictionary that will contain the skills of each player and its mana cost) and a guild set to "Unaffiliated" by default.
 The Player class should also have two additional methods:
