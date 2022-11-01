@@ -148,7 +148,7 @@ The Guild class receives a name (string). The Guild should also have one instanc
 # Spoopify
 You are tasked to create three classes: a Song class, an Album class, and a Band class.
 
-
+![image](https://user-images.githubusercontent.com/104040753/199204712-266698a8-b291-41cc-bd3f-7ddde0d596d2.png)
 
 The Song class should receive a name (string), a length (float), and a single (bool) upon initialization. It has one method:
 get_info()
