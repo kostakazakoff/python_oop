@@ -5,7 +5,7 @@ from project.library import Library
 class Registration:
     def add_user(self, user: User, library: Library):
         if user in library.user_records:
-            return f"User with id = {user.id} already registered in the library!"
+            return f"User with id = {user.user_id} already registered in the library!"
 
         library.user_records.append(user)
 
@@ -17,7 +17,7 @@ class Registration:
 
     def change_username(self, user_id: int, new_username: str, library: Library):
         try:
-            user = next(filter(lambda u: u.id == user_id, library.user_records))
+            user = next(filter(lambda u: u.user_id == user_id, library.user_records))
         except StopIteration:
             return f"There is no user with id = {user_id}!"
 
