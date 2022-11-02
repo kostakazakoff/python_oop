@@ -63,7 +63,7 @@ The default fuel consumption for the different vehicles is:
 # Shop
 Maria is expanding her business, and today, she is opening a grocery shop. You are hired to write a program that keeps track of the shop's inventory.
 
-
+![image](https://user-images.githubusercontent.com/104040753/199553636-e9ec37b8-6bd6-4ed6-8c2b-35d39a7689c5.png)
 
 In the product.py file, the class Product should be implemented. It is a base class for any type of food and drink.
 The class should receive name: str, and quantity: int upon initialization. It should also have 3 additional methods:
