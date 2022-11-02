@@ -21,11 +21,11 @@ Every class should have a constructor, which accepts one parameter: name
 # Players and Monsters
 Your task is to create the following game hierarchy: 
 
-
+![image](https://user-images.githubusercontent.com/104040753/199504384-991550ae-2942-4cc8-92cc-36d0a1e182fb.png)
 
 Submit in judge a zip file containing a separate file for each of the classes using the structure shown below:
 
-
+![image](https://user-images.githubusercontent.com/104040753/199504411-74e2291c-c509-46b0-a19e-9d35e319eb7a.png)
 
 Create a class Hero. It should contain the following attributes:
 - username: string
