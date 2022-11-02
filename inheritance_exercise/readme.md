@@ -15,3 +15,20 @@ Submit in judge a zip file of the project, containing a separate file for each o
 
 Follow the diagram and create all the classes. Except for the Animal class, each class should inherit from another class, as shown in the diagram. The Animal class should receive a name - string upon initialization.
 Every class should have a constructor, which accepts one parameter: name
+
+
+
+# Players and Monsters
+Your task is to create the following game hierarchy: 
+
+
+
+Submit in judge a zip file containing a separate file for each of the classes using the structure shown below:
+
+
+
+Create a class Hero. It should contain the following attributes:
+- username: string
+- level: int
+
+Override the __str__() method of the base class so it returns: "{name} of type {class_name} has level {level}"
