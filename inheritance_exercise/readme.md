@@ -36,11 +36,11 @@ Override the __str__() method of the base class so it returns: "{name} of type {
 # Need for Speed
 Create the following hierarchy with the following classes: 
 
-
+![image](https://user-images.githubusercontent.com/104040753/199505236-58e980a6-1b61-4e45-84e2-7e0f58d42240.png)
 
 Submit in judge a zip file containing a separate file for each of the classes using the structure shown below:
 
-
+![image](https://user-images.githubusercontent.com/104040753/199505282-9cc56c3d-7a03-422d-87f8-5263d66eae59.png)
 
 Create a base class Vehicle. It should contain the following attributes:
 - DEFAULT_FUEL_CONSUMPTION: float (constant)
