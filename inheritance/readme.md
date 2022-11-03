@@ -11,3 +11,13 @@ In a folder called project create two files: animal.py and dog.py:
 In the animal.py file, create a class called Animal with a single method eat() that returns: "eating…". 
 In the dog.py file, create a class called Dog with a single method bark() that returns: "barking…".
 The Dog should inherit from Animal.
+
+
+
+# Multiple Inheritance
+In a folder called project create three files: person.py, employee.py, and teacher.py.
+In each file, create its corresponding class - Person, Employee, and Teacher:
+- Person with a single method sleep() that returns: "sleeping..."
+- Employee with a single method get_fired() that returns: "fired..."
+- Teacher with a single method teach() that returns: "teaching...". 
+- Teacher should inherit from Person and Employee.
