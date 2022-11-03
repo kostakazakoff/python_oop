@@ -13,7 +13,6 @@ In the dog.py file, create a class called Dog with a single method bark() that r
 The Dog should inherit from Animal.
 
 
-
 # Multiple Inheritance
 In a folder called project create three files: person.py, employee.py, and teacher.py.
 In each file, create its corresponding class - Person, Employee, and Teacher:
@@ -21,3 +20,13 @@ In each file, create its corresponding class - Person, Employee, and Teacher:
 - Employee with a single method get_fired() that returns: "fired..."
 - Teacher with a single method teach() that returns: "teaching...". 
 - Teacher should inherit from Person and Employee.
+
+
+# Multilevel Inheritance
+In a folder called project create three files: vehicle.py and car.py, and sports_car.py.
+
+In each file, create its corresponding class - Vehicle, Car, and SportsCar:
+- Vehicle with a single method move() that returns: "moving..."
+- Car with a single method drive() that returns: "driving..."
+- SportsCar with a single method race() that returns: "racing...". 
+- SportsCar should inherit from Car and Car should inherit from Vehicle.
