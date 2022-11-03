@@ -4,3 +4,10 @@ In the food.py file, create a class called Food which will receive an expiration
 
 In the fruit.py file, create a class called Fruit with will receive a name (str) and an expiration_date (str) upon initialization. 
 Fruit should inherit from Food.
+
+
+# Single Inheritance
+In a folder called project create two files: animal.py and dog.py:
+In the animal.py file, create a class called Animal with a single method eat() that returns: "eating…". 
+In the dog.py file, create a class called Dog with a single method bark() that returns: "barking…".
+The Dog should inherit from Animal.
