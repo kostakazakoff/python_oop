@@ -132,3 +132,27 @@ The class should also have 2 instance methods:
     - If there is no space left for a new topping, raise a ValueError: "Not enough space for another topping"
     - If the topping is already in the dictionary, increase the value of its weight.
 - calculate_total_weight() - returns the total weight of the pizza (dough's weight and toppings' weight)
+
+
+# Football Team Generator
+Create a separate file for each class as shown below and submit a zip file containing all files (zip the whole project folder/module) - it is important to include all files in the project module to make proper imports.
+
+Create a class called Player. Upon initialization, it should receive:
+- Private attribute name: string
+- Private attribute sprint: int
+- Private attribute dribble: int
+- Private attribute passing: int
+- Private attribute shooting: int
+
+You should create property only for the name of the player. The class should also have one additional method:
+- Override the __str__() method of the class so it returns:
+    > "Player: {name}
+    >
+    > Sprint: {sprint}
+    >
+    > Dribble: {dribble}
+    >
+    > Passing: {passing}
+    >
+    > Shooting: {shooting}"
+Create a class called Team. Upon initialization, it should receive:
