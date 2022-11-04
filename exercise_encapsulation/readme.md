@@ -107,7 +107,7 @@ The Zoo class should also have 8 methods:
 # Pizza Maker
 Create a separate file for each class as shown below and submit a zip file containing all files (zip the whole project folder/module) - it is important to include all files in the project module to make proper imports.
 
-
+![image](https://user-images.githubusercontent.com/104040753/200066000-7512a193-6ae0-45a7-a7e4-6b4215997550.png)
 
 Create a class called Topping. Upon initialization, it should receive:
 - topping_type: str - if the topping is an empty string, raise a ValueError with the message "The topping type cannot be an empty string"
