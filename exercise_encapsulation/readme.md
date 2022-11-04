@@ -48,57 +48,57 @@ The Zoo class should also have 8 methods:
 - animals_status()
     - Returns the following string (Hint: use the __repr__ methods of the animals to print them on the console):
 
-    "You have {total_animals_count} animals
+        "You have {total_animals_count} animals
 
-    ----- {amount_of_lions} Lions:
+        ----- {amount_of_lions} Lions:
 
-    {lion1}
+        {lion1}
 
-    …
-    
-    {lionN}
-    
-    ----- {amount_of_tigers} Tigers:
-    
-    {tiger1}
-    
-    …
-    
-    {tigerN}
-    
-    ----- {amount_of_cheetahs} Cheetahs:
-    
-    {cheetah1}
-    
-    …
-    
-    {cheetahN}"
+        …
+        
+        {lionN}
+        
+        ----- {amount_of_tigers} Tigers:
+        
+        {tiger1}
+        
+        …
+        
+        {tigerN}
+        
+        ----- {amount_of_cheetahs} Cheetahs:
+        
+        {cheetah1}
+        
+        …
+        
+        {cheetahN}"
 
 - workers_status()
     - Returns the following string (Hint: use the __repr__ methods of the workers to print them on the console):
     
-    "You have {total_workers_count} workers
-    
-    ----- {amount_of_keepers} Keepers:
-    
-    {keeper1}
-    
-    …
-    
-    {keeperN}
-    
-    ----- {amount_of_caretakers} Caretakers:
-    
-    {caretaker1}
-    
-    …
-    
-    {caretakerN}
-    
-    ----- {amount_of_vetes} Vets:
-    
-    {vet1}
-    
-    …
-    
-    {vetN}"
+        "You have {total_workers_count} workers
+        
+        ----- {amount_of_keepers} Keepers:
+        
+        {keeper1}
+        
+        …
+        
+        {keeperN}
+        
+        ----- {amount_of_caretakers} Caretakers:
+        
+        {caretaker1}
+        
+        …
+        
+        {caretakerN}
+        
+        ----- {amount_of_vetes} Vets:
+        
+        {vet1}
+        
+        …
+        
+        {vetN}"
