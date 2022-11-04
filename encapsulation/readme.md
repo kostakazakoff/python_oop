@@ -18,3 +18,18 @@ Create a class called Profile. Upon initialization, it should receive:
 Hint: Use Getters and Setters to name-mangle them. 
 
 Override the __str__() method of the base class, so it returns: "You have a profile with username: "{username}" and password: {"*" with the length of password}".
+
+
+# Email Validator
+Create a class called EmailValidator. Upon initialization it should receive:
+- min_length (of the username; example: in "peter@gmail.com" "peter" is the username) 
+- mails (list of the valid mails; example: "gmail", "abv") 
+- domains (list of valid domains; example: "com", "net")
+
+Create three methods that should not be accessed outside the class:
+- is_name_valid(name) - returns whether the name is greater than or equal to the min_length (True/False)
+- is_mail_valid(mail) - returns whether the mail is in the possible mails list (True/False)
+- is_domain_valid(domain) - returns whether the domain is in the possible domains list (True/False)
+
+Create one public method:
+- validate(email) - using the three methods returns whether the email is valid (True/False)
