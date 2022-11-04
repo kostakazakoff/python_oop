@@ -174,11 +174,11 @@ The Team class have the following methods:
 # Restaurant
 Create a restaurant with the following classes and hierarchy:
 
-
+![image](https://user-images.githubusercontent.com/104040753/200067521-7ac2d2ba-6870-4409-9b51-89c0f491c764.png)
 
 Submit in judge a zip file containing a separate file for each of the classes using the structure shown below:
 
-
+![image](https://user-images.githubusercontent.com/104040753/200067549-c3d8cbdc-e380-49e0-a001-7a5eaa9728a3.png)
 
 The Product class should have the following private attributes and subsequent getters:
 - name: string
