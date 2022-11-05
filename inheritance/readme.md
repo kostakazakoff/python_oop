@@ -30,3 +30,23 @@ In each file, create its corresponding class - Vehicle, Car, and SportsCar:
 - Car with a single method drive() that returns: "driving..."
 - SportsCar with a single method race() that returns: "racing...". 
 - SportsCar should inherit from Car and Car should inherit from Vehicle.
+
+
+# Hierarchical Inheritance
+In a folder called project create three files: animal.py, dog.py, and cat.py.
+In each file, create its corresponding class - Animal, Dog, and Cat:
+Animal with a single method eat() that returns: "eating..."
+Dog with a single method bark() that returns: "barking..."
+Cat with a single method meow() that returns: "meowing..."
+Both Dog and Cat should inherit from Animal.
+
+
+# Stack of Strings
+Create a class Stack that can store only strings and has the following functionality:
+Instance attribute: data: list
+- Method: push(element) – adds an element at the end of the stack
+- Method: pop() – removes and returns the last element in the stack
+- Method: top() - returns a reference to the topmost element of the stack
+- Method: is_empty() - returns boolean True/False
+- Override the string method to return the stack data in the format: 
+    "[{element(N)}, {element(N-1)} ... {element(0)}]"
