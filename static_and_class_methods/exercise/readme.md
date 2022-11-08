@@ -46,7 +46,6 @@ The MovieWorld class should receive one parameter upon initialization: name: str
     - Otherwise, the rent is successful (the DVD is rented and added to the customer's DVDs). Return "{customer_name} has successfully rented {dvd_name}"
 - return_dvd(customer_id, dvd_id) - if the DVD is in the customer, he/she should return it and the method should return the message "{customer_name} has successfully returned {dvd_name}". Otherwise, return "{customer_name} does not have that DVD" 
 - __repr__() - return the string representation of each customer and each DVD on separate lines
-<<<<<<< HEAD
 
 
 # Document Management
