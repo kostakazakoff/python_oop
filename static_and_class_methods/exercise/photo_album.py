@@ -15,7 +15,7 @@ class PhotoAlbum:
     def add_photo(self, label: str):
         try:
             page_available = next(filter(lambda p: len(p) < 4, self.photos))
-            idx = self.photos.index(page_available) +1
+            idx = self.photos.index(page_available) + 1
         except StopIteration:
             return "No more free slots"
         page_available.append(label)
