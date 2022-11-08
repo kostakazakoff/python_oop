@@ -22,7 +22,7 @@ The class should also have 3 more methods:
 # Movie World
 Create the following project structure
 
-
+![image](https://user-images.githubusercontent.com/104040753/200648964-ce32e1e5-33bb-4c99-b96b-2330527c5da8.png)
 
 ### Class Customer
 Upon initialization, the Customer class should receive the following parameters: name: str, age: int, id: int. Each customer should also have an instance attribute called rented_dvds (empty list with DVD instances).
@@ -46,6 +46,7 @@ The MovieWorld class should receive one parameter upon initialization: name: str
     - Otherwise, the rent is successful (the DVD is rented and added to the customer's DVDs). Return "{customer_name} has successfully rented {dvd_name}"
 - return_dvd(customer_id, dvd_id) - if the DVD is in the customer, he/she should return it and the method should return the message "{customer_name} has successfully returned {dvd_name}". Otherwise, return "{customer_name} does not have that DVD" 
 - __repr__() - return the string representation of each customer and each DVD on separate lines
+<<<<<<< HEAD
 
 
 # Document Management
@@ -84,3 +85,5 @@ Upon initialization the class Storage will not receive any parameters. It should
 - delete_document(document_id) - delete the document with the provided id
 - get_document(document_id) - return the document with the provided id
 - __repr__() - returns a string representation of each document on separate lines
+=======
+>>>>>>> b64767828143efb374c8a3827bf190bfa7fb20d1
