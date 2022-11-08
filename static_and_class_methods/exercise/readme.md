@@ -51,7 +51,7 @@ The MovieWorld class should receive one parameter upon initialization: name: str
 # Document Management
 Create the following project structure
 
-
+![image](https://user-images.githubusercontent.com/104040753/200650526-fbe89cee-8850-4cb1-97cf-dcd7e8de5e2c.png)
 
 ### Class Topic
 The Topic class should receive the following parameters upon initialization: id: int, topic: str, storage_folder: str. It should have two methods:
