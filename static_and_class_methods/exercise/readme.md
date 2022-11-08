@@ -22,7 +22,7 @@ The class should also have 3 more methods:
 # Movie World
 Create the following project structure
 
-
+![image](https://user-images.githubusercontent.com/104040753/200648964-ce32e1e5-33bb-4c99-b96b-2330527c5da8.png)
 
 ### Class Customer
 Upon initialization, the Customer class should receive the following parameters: name: str, age: int, id: int. Each customer should also have an instance attribute called rented_dvds (empty list with DVD instances).
