@@ -84,5 +84,7 @@ Upon initialization the class Storage will not receive any parameters. It should
 - delete_document(document_id) - delete the document with the provided id
 - get_document(document_id) - return the document with the provided id
 - __repr__() - returns a string representation of each document on separate lines
-=======
->>>>>>> b64767828143efb374c8a3827bf190bfa7fb20d1
+
+
+# Gym
+Create the following project structure:
