@@ -88,3 +88,7 @@ Upon initialization the class Storage will not receive any parameters. It should
 
 # Gym
 Create the following project structure:
+
+![image](https://user-images.githubusercontent.com/104040753/200650664-999b7c81-3c9b-4b0b-9c3c-7d54dfdc80a5.png)
+
+
