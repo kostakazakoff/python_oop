@@ -177,10 +177,10 @@ The class should have the following attributes:
 ### __init__()
 - In the __init__ method, all the needed attributes must be set.
 ### register_team_for_season(team_name: str, budget: int)
-    - Valid team names: "Red Bull", "Mercedes"
-    - If a team name is valid, register the team with the corresponding name and return the following message: 
-        "{ team name } has joined the new F1 season."
-    - If a team name is invalid, raise ValueError with the message: "Invalid team name!"
+- Valid team names: "Red Bull", "Mercedes"
+- If a team name is valid, register the team with the corresponding name and return the following message: 
+    "{ team name } has joined the new F1 season."
+- If a team name is invalid, raise ValueError with the message: "Invalid team name!"
 *Note: There won't be a case where a valid team tries to register for a second time.*
 ### new_race_results(race_name: str, red_bull_pos: int, mercedes_pos: int)
 - If Red Bull or Mercedes haven't registered yet, raise an Exception with the following message: "Not all teams have registered for the season."
