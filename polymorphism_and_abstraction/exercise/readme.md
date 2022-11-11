@@ -35,7 +35,7 @@ Implement the correct magic methods so the code in the example below works prope
 - When you concatenate two accounts, you should return a new account with a name - string in the format "{first_owner}&{second_owner}" and starting amount - the sum between their two. Both their transactions should be added to the new account.
 
 
-4. Wild Farm
+# Wild Farm
 Create the following project structure:
 
 ![image](https://user-images.githubusercontent.com/104040753/201360610-0fb9eab2-295d-4605-b88b-69d7e667c00c.png)
