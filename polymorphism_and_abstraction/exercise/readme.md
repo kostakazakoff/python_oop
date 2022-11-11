@@ -38,7 +38,7 @@ Implement the correct magic methods so the code in the example below works prope
 4. Wild Farm
 Create the following project structure:
 
-
+![image](https://user-images.githubusercontent.com/104040753/201360610-0fb9eab2-295d-4605-b88b-69d7e667c00c.png)
 
 Your task is to create a class hierarchy like the one described below. The Animal, Bird, Mammal, and Food classes should be abstract:
 In the food.py file, implement the following classes:
