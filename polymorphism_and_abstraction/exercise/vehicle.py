@@ -16,8 +16,10 @@ class Vehicle(ABC):
 
 
 class Car(Vehicle):
+    CONDITIONER_CONSUMPTION = 0.9
+
     def drive(self, distance):
-        consumption = distance * (self.fuel_consumption + 0.9)
+        consumption = distance * (self.fuel_consumption + __class__.CONDITIONER_CONSUMPTION)
         if consumption <= self.fuel_quantity:
             self.fuel_quantity -= consumption
 
@@ -26,8 +28,10 @@ class Car(Vehicle):
 
 
 class Truck(Vehicle):
+    CONDITIONER_CONSUMPTION = 1.6
+
     def drive(self, distance):
-        consumption = distance * (self.fuel_consumption + 1.6)
+        consumption = distance * (self.fuel_consumption + __class__.CONDITIONER_CONSUMPTION)
         if consumption <= self.fuel_quantity:
             self.fuel_quantity -= consumption
 
