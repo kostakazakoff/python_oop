@@ -102,7 +102,7 @@ The Tomcat class should inherit and implement the Cat class. Its gender is "Male
 # Formula 1 Manager
 For this task, you will be provided with a skeleton that includes all the folders and files you need.
 
-
+![image](https://user-images.githubusercontent.com/104040753/201363119-5359ab93-06b5-44da-bd70-6586b67c8841.png)
 
 Note: You cannot change the folder and file structure and their names!
 
