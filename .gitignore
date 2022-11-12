@@ -3,3 +3,5 @@ Pipfile
 project_venv
 venv
 .idea
+.venv
+*.code-workspace
