@@ -4,7 +4,7 @@ from itertools import permutations
 def possible_permutations(x):
     p = permutations(x)
     for any in p:
-        yield any
+        yield list(any)
 
 
-# [print(n) for n in possible_permutations([1, 2, 3, 4])]
+# [print(n) for n in possible_permutations([1, 2, 3])]
