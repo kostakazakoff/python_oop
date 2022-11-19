@@ -17,3 +17,15 @@ Implement the three generator functions:
 - integers() - generates an infinite amount of integers (starting from 1)
 - halves() - generates the halves of those integers (each integer / 2)
 - take(n, seq) - takes the first n halves of those integers
+
+# Fibonacci Generator
+Create a generator function called fibonacci() that generates the Fibonacci numbers infinitely. The first two numbers in the sequence are always 0 and 1. Each following Fibonacci number is created by the sum of the current number with the previous one.
+
+# Reader
+Create a generator function called read_next() which should receive a different number of arguments (all iterable). On each iteration, the function should return each element from each sequence.
+
+# Prime Numbers
+Create a generator function called get_primes() which should receive a list of integer numbers and return a list containing only the prime numbers from the initial list.
+
+# Possible permutations
+Create a generator function called possible_permutations() which should receive a list and return lists with all possible permutations between its elements.
