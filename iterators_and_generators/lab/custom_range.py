@@ -1,6 +1,7 @@
 class custom_range:
     def __init__(self, start, end):
-        self.number = start - 1
+        self.start = start
+        self.number = start - 1 if end > start else start + 1
         self.end = end
 
     def __iter__(self):
@@ -9,7 +10,7 @@ class custom_range:
     def __next__(self):
         if self.number == self.end:
             raise StopIteration
-        self.number += 1
+        self.number = self.number + 1 if self.end > self.start else self.number - 1
         return self.number
 
 
