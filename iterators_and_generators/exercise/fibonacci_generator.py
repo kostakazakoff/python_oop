@@ -8,7 +8,6 @@
 #         yield third
 #         first, second = second, third
 
-
 # 2 -------------------------------------------------
 
 def fibonacci():
@@ -17,7 +16,6 @@ def fibonacci():
     while True:
         yield first
         first, second = second, first + second
-
 
 # Test -----------------------------------------------
 
