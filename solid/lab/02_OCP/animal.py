@@ -26,7 +26,7 @@ class Dog(Animal):
         self.species = species
 
     def animal_sound(self):
-        print('woof, woof')
+        print('woof-woof')
 
 
 class Chicken(Animal):
@@ -35,7 +35,7 @@ class Chicken(Animal):
         self.species = species
 
     def animal_sound(self):
-        print('piu, piu')
+        print('piu-piu')
 
 
 def animal_sound(animals: list):

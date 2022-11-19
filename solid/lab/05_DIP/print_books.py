@@ -16,8 +16,8 @@ class Printer:
         return formatted_book
 
 
-class HTMLFormatter:
-    @staticmethod
-    def format(book: Book) -> str:
-        book.content = f'<html>{book.content}<\html>'
-        return book.content
+# class HTMLFormatter:
+#     @staticmethod
+#     def format(book: Book) -> str:
+#         book.content = f'<html>{book.content}<\html>'
+#         return book.content

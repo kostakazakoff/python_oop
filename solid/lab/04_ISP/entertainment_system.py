@@ -1,17 +1,17 @@
 class EntertainmentDevice:
-    def connect_device_to_power_outlet(self, device): pass
+    def connect_device_to_power_outlet(self): pass
 
 
 class HDMIInterface:
-    def connect_to_device_via_hdmi_cable(self, device): pass
+    def connect_to_device_via_hdmi_cable(self): pass
 
 
 class RCAInterface:
-    def connect_to_device_via_rca_cable(self, device): pass
+    def connect_to_device_via_rca_cable(self): pass
 
 
 class EthernetInterface:
-    def connect_to_device_via_ethernet_cable(self, device): pass
+    def connect_to_device_via_ethernet_cable(self): pass
 
 
 class Television(EntertainmentDevice, HDMIInterface, RCAInterface):

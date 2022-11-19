@@ -12,7 +12,6 @@ class IEmail(ABC):
 
 
 class IContent(ABC):
-    @abstractmethod
     def __init__(self, text):
         self.text = text
 
@@ -26,7 +25,7 @@ class MyContent(IContent):
         super().__init__(text)
 
     def format(self):
-        return '\n'.join(['<myML>', self.text, '</myML>'])
+        return ''.join(['<myML>', self.text, '</myML>'])
 
 
 class Email(IEmail):
@@ -52,11 +51,18 @@ class Email(IEmail):
         self.__content = content.format()
 
     def __repr__(self):
-        template = "Sender: {sender}\nReceiver: {receiver}\nContent:\n{content}"
-        return template.format(sender=self.__sender, receiver=self.__receiver, content=self.__content)
+        return f"Sender: {self.__sender}\nReceiver: {self.__receiver}\nContent:\n{self.__content}"
 
 
 # Test: -------------------------------------------------------------
+
+# class HtmlContent(IContent):
+#     def __init__(self, text):
+#         super().__init__(text)
+#
+#     def format(self):
+#         return ''.join(['<html>', self.text, '</html>'])
+
 
 # email = Email('IM')
 # email.set_sender('qmal')
