@@ -4,5 +4,5 @@ def read_next(*args):
             yield e
 
 
-for i in read_next("Need", (2, 3), ["words", "."]):
-    print(i)
+# for i in read_next("Need", (2, 3), ["words", "."]):
+#     print(i)
