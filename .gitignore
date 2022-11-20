@@ -7,3 +7,4 @@ venv
 *.code-workspace
 .gitignore
 test.py
+*.docx
