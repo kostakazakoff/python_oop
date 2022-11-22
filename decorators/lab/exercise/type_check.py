@@ -1,12 +1,11 @@
-def type_check(param_type):
+def type_check(arg_type):
     def decorator(func_ref):
         def wrapper(*args):
-            for param in args:
-                if type(param) is not param_type:
+            for argument in args:
+                if type(argument) is not arg_type:
                     return "Bad Type"
             result = func_ref(*args)
-            return result
-        
+            return result     
         return wrapper
     return decorator
 
