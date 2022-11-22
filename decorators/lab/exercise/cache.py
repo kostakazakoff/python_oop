@@ -1,11 +1,10 @@
 def cache(func):
-    log = {}
     def wrapper(n):    
-        if n in log:
-            return log[n]
-        log[n] = func(n)
-        return log[n]   
-    wrapper.log = log
+        if n in wrapper.log:
+            return wrapper.log[n]
+        wrapper.log[n] = func(n)
+        return wrapper.log[n]   
+    wrapper.log = {}
     return wrapper
 
 
@@ -16,5 +15,5 @@ def fibonacci(n):
     return fibonacci(n - 1) + fibonacci(n - 2)
 
 
-fibonacci(10) 
-print(fibonacci.log) 
+# print(fibonacci(50))
+# print(fibonacci.log) 
