@@ -8,3 +8,5 @@ venv
 .gitignore
 test.py
 *.docx
+*.zip
+*.rar
