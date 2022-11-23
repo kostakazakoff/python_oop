@@ -24,7 +24,7 @@ class ComputerStoreApp:
         if not compatible_computer:
             raise Exception("Sorry, we don't have a computer for you.")
 
-        # if there is more than one computer with compatible parameters, chosing the cheeper one:
+        # if there is more than one computer with compatible parameters, choosing the cheaper one:
         chosen_comp = sorted(compatible_computer, key=lambda x: x.price)[0]
         return chosen_comp
 
