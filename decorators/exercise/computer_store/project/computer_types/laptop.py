@@ -14,16 +14,6 @@ class Laptop(Computer):
     def max_ram(self):
         return 64
 
-    def configure_computer(self, processor: str, ram: int):
-        if processor not in self.processors:
-            raise ValueError(f"{processor} is not compatible with laptop computer {self.manufacturer} {self.model}!")
-        
-        if not self.ram_is_valid(ram) or ram > self.max_ram:
-            raise ValueError(f"{ram}GB RAM is not compatible with laptop computer {self.manufacturer} {self.model}!")
-        
-        self.processor = processor
-        self.ram = ram
-        self.price = int(log2(ram)) * 100 + self.processors[processor]
-        
-        return f"Created {self.manufacturer} {self.model} with " \
-               f"{self.processor} and {self.ram}GB RAM for {self.price}$."
+    @property
+    def type_string(self):
+        return 'laptop'
