@@ -10,3 +10,4 @@ test.py
 *.docx
 *.zip
 *.rar
+settings.json

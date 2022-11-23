@@ -43,21 +43,9 @@ class Computer(ABC):
     def max_ram(self):
         ...
 
-    @property
     @abstractmethod
-    def type_string(self):
-        ...
-
     def configure_computer(self, processor: str, ram: int):
-        if processor not in self.processors:
-            raise ValueError(f"{processor} is not compatible with {self.type_string} {self.manufacturer} {self.model}!")
-        
-        if not self.ram_is_valid(ram) or ram > self.max_ram:
-            raise ValueError(f"{ram}GB RAM is not compatible with {self.type_string} {self.manufacturer} {self.model}!")
-        
-        self.processor = processor
-        self.ram = ram
-        self.price = int(log2(ram)) * 100 + self.processors[processor]
+        ...
 
     @staticmethod
     def ram_is_valid(ram_size):
