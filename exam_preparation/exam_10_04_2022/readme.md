@@ -108,11 +108,19 @@ Upon initialization, all the needed attributes must be set.
 - Then, you need to sustain each player by giving them one food (first) and one drink (second)
 ### __str__()
 Override the method so that its return the players' data and the supplies' data in the format:
+
         "Player: {player_name_1}, {age}, {stamina}, {need_sustenance}
+
         Player: {player_name_2}, {age}, {stamina}, {need_sustenance}
+
         ...
+
         Player: {player_name_N}, {age}, {stamina}, {need_sustenance}
+
         {supply_type}: {name_1}, {energy}
+
         {supply_type}: {name_2}, {energy}
+
         ...
+        
         {supply_type}: {name_N}, {energy}"
