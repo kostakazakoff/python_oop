@@ -3,8 +3,7 @@ You and your friends gathered to play Medieval Games in your backyard!
 You will be provided with a skeleton that includes all the folders and files you will need. 
 Note: You are not allowed to change the folder and file structure and change their names!
 
-
-
+![image](https://user-images.githubusercontent.com/104040753/204131007-ddd11fcb-56c1-449f-8239-ca236133fe6a.png)
 
 ## Judge Upload
 For the first 2 problems, create a zip file with the project folder and upload it to the judge system.
