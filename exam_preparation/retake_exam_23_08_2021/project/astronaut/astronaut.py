@@ -28,4 +28,4 @@ class Astronaut(ABC):
 
     def __str__(self):
         backpack_items = ', '.join(self.backpack) if self.backpack else 'none'
-        return '\n'.join([f'Name: {self.name}', f'Oxygen: {self.oxygen}', f'Backpack items: {backpack_items}'])
+        return f'Name: {self.name}\nOxygen: {self.oxygen}\nBackpack items: {backpack_items}'
